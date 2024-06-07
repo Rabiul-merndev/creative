@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root {
-  --primary: #5956e8;
+  --primary: #0011ff;
   --black: #181818;
   --white: #fffefe;
   --70black: #181818;
@@ -141,6 +141,8 @@ nav .nav_btn:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
   transition: 0.4s;
 }
+
+
 .service_item h5 {
   font-size: 25px;
   font-weight: 700;
@@ -155,6 +157,15 @@ nav .nav_btn:hover {
   margin-top: 20px;
   width: 274px;
 }
+.service_item img {
+  background: var(--borderclr);
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+}
+.service_item :hover{
+  background: var(--primary);
+}
+
 
 /* <!-- ============================================= Services End ============================================================ --> */
 
